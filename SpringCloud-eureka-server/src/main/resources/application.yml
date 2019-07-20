@@ -1,0 +1,14 @@
+# eureka服务端的访问地址：http://localhost:8761/eurekaserver
+server:
+  port: 8761
+  servlet:
+    context-path: /eurekaserver
+  
+eureka:
+  instance:
+    hostname: localhost #eureka主机ip
+  client:
+    registerWithEureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eurekaserver/eureka/ #eureka注册中心地址

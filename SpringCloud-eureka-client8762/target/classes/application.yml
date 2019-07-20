@@ -1,0 +1,13 @@
+server:
+  port: 8762
+  servlet:
+    context-path: /eurekaclient8762
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eurekaserver/eureka/ #eureka注册中心地址
+      
+spring:
+  application:
+    name: eurekaclient8762  #在注册中心显示的名字
