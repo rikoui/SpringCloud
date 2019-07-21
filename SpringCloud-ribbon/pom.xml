@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>pers.rikoui.eurekaclient</groupId>
-  <artifactId>SpringCloud-eureka-client8762</artifactId>
+  <groupId>pers.rikoui.ribbon</groupId>
+  <artifactId>SpringCloud-ribbon</artifactId>
   <packaging>war</packaging>
-  <name>eureka-client8762</name>
-  <description>SpringCloud-eureka-client8762 Maven Webapp</description>
+  <name>SpringCloud-ribbon Maven Webapp</name>
+  <url>http://maven.apache.org</url>
   
   <parent>
     <groupId>pers.rikoui</groupId>
@@ -15,12 +15,16 @@
   </parent>
   
   <dependencies>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+	</dependency>
   </dependencies>
   <build>
-    <finalName>SpringCloud-eureka-client8762</finalName>
+    <finalName>SpringCloud-ribbon</finalName>
   </build>
 </project>

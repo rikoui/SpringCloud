@@ -1,10 +1,10 @@
 server:
-  port: 8762
-    
+  port: 9700
+  
 spring:
   application:
-    name: eurekaclient  #在注册中心显示的名字
-    
+    name: provider9700  #在注册中心显示的名字
+  
 eureka:
   client:
     service-url:

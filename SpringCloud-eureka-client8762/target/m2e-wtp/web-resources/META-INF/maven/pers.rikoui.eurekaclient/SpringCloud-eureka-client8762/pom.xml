@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pers.rikoui.eurekaclient</groupId>
   <artifactId>SpringCloud-eureka-client8762</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>SpringCloud-eureka-client8762 Maven Webapp</name>
+  <name>eureka-client8762</name>
+  <description>SpringCloud-eureka-client8762 Maven Webapp</description>
   
   <parent>
     <groupId>pers.rikoui</groupId>
@@ -16,15 +16,8 @@
   
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-eureka</artifactId>
-      <version>1.4.3.RELEASE</version>
+      <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     </dependency>
   </dependencies>
   <build>
