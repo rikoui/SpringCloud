@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>pers.rikoui.ribbon</groupId>
-  <artifactId>SpringCloud-ribbon</artifactId>
+  <groupId>pers.rikoui.feign</groupId>
+  <artifactId>SpringCloud-feign</artifactId>
   <packaging>war</packaging>
-  <name>SpringCloud-ribbon</name>
-  <description>SpringCloud-ribbon Maven Webapp</description>
+  <name>SpringCloud-feign</name>
+  <description>SpringCloud-feign Maven Webapp</description>
   
   <parent>
     <groupId>pers.rikoui</groupId>
@@ -15,16 +15,16 @@
   </parent>
   
   <dependencies>
-	<dependency>
-		<groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+  	<dependency>
+	    <groupId>org.springframework.cloud</groupId>
+	    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 	</dependency>
 	<dependency>
-		<groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+	    <groupId>org.springframework.cloud</groupId>
+	    <artifactId>spring-cloud-starter-openfeign</artifactId>
 	</dependency>
   </dependencies>
   <build>
-    <finalName>SpringCloud-ribbon</finalName>
+    <finalName>SpringCloud-feign</finalName>
   </build>
 </project>

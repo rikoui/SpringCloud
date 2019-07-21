@@ -1,25 +1,25 @@
-package pers.rikoui.ribbon.controller;
+package com.rikou.feign.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import pers.rikoui.ribbon.service.RibbonService;
+import com.rikou.feign.service.FeignInterface;
 
 @RestController
-public class RibbonController {
-	
+public class FeignController {
+
 	@Autowired
-	private RibbonService ribbonService;
-	
+	private FeignInterface feignInterface;
+
 	@RequestMapping("/sayWord")
 	public String sayWord() {
-		return ribbonService.sayWord();
+		return feignInterface.sayWord();
 	}
 	
 	@RequestMapping("/actuator/info")
 	public String getInfo() {
-		return "ribbon info is ...";
+		return "feign info is ...";
 	}
 
 }

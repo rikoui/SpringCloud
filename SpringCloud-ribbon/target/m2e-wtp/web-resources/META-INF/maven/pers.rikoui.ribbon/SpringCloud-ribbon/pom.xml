@@ -5,8 +5,8 @@
   <groupId>pers.rikoui.ribbon</groupId>
   <artifactId>SpringCloud-ribbon</artifactId>
   <packaging>war</packaging>
-  <name>SpringCloud-ribbon Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <name>SpringCloud-ribbon</name>
+  <description>SpringCloud-ribbon Maven Webapp</description>
   
   <parent>
     <groupId>pers.rikoui</groupId>

@@ -1,10 +1,10 @@
 server:
-  port: 8780
-
+  port: 8764
+  
 spring:
   application:
-    name: ribbon8780  #在注册中心显示的名字
-
+    name: eurekaclient  #在注册中心显示的名字
+    
 eureka:
   client:
     service-url:

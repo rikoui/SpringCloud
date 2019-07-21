@@ -71,8 +71,8 @@
 		<module>SpringCloud-eureka-server</module>
 		<module>SpringCloud-eureka-client8762</module>
 		<module>SpringCloud-eureka-client8763</module>
-		<module>SpringCloud-eureka-provider7900</module>
-		<module>SpringCloud-eureka-consumer7910</module>
+		<module>SpringCloud-eureka-client8764</module>
 		<module>SpringCloud-ribbon</module>
+		<module>SpringCloud-feign</module>
 	</modules>
 </project>
